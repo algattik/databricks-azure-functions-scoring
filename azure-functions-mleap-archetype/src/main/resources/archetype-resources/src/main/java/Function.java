@@ -78,7 +78,7 @@ public class Function {
         String text = request.getBody().orElse(query);
 
         List<Row> rows = new ArrayList<Row>();
-        rows.add(builder.createRow("unknown", query));
+        rows.add(builder.createRow("unknown", text));
         DefaultLeapFrame input = builder.createFrame(schema, rows);
 
         DefaultLeapFrame output = mleapPipeline.transform(input).get();
