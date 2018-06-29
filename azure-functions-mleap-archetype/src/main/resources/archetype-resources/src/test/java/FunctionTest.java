@@ -1,4 +1,4 @@
-package com.fabrikam.functions;
+package $package;
 
 import org.junit.Test;
 import com.microsoft.azure.functions.*;

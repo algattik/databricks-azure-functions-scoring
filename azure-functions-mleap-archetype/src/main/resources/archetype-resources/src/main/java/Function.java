@@ -1,4 +1,4 @@
-package com.fabrikam.functions;
+package $package;
 
 import com.microsoft.azure.functions.ExecutionContext;
 import com.microsoft.azure.functions.HttpRequestMessage;
